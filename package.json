@@ -1,0 +1,17 @@
+{
+  "name": "started-karma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start karma.conf.js"
+  },
+  "author": "Lucas Caballero <lucas.caballero@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.4.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0"
+  }
+}
